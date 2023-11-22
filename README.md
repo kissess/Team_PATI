@@ -1,2 +1,2 @@
 # Team_PATI
-캡스톤
+2023-2 capstone design team PATI
