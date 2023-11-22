@@ -1,0 +1,33 @@
+.button {
+    position: absolute;
+    margin-left: 338px;
+    margin-top: 208px;
+    z-index: 3;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.9);
+
+    padding: 8px 17px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.30);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(9.8px);
+    border: none;
+}
+
+.button > span{
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(15.399999618530273px);
+}

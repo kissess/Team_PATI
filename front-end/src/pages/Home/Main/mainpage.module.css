@@ -1,0 +1,51 @@
+.header{
+    width: 1920px;
+    margin-left: 0px;
+    padding-top: 150px;
+
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigmain{
+    margin-top: 282.5px;
+    
+    font-size: 120px;
+    font-family: 'Lato';
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.main{
+    font-size: 70px;
+    font-family: 'Lato';
+    color: #fff;
+    margin-top: 0px;
+}
+
+.startbtn{
+    padding: 20px 30px;
+    margin-top: 30px;
+    margin-left: -40px;
+    margin-bottom: 260px;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+    border: 1px solid rgba(5, 5, 5, 0.01);
+    background: rgba(141, 141, 141, 0.35);
+    backdrop-filter: blur(15.399999618530273px);
+    
+    font-family: 'Noto Sans KR';
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.startbtn:hover {
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(15.399999618530273px);
+}

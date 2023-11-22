@@ -1,0 +1,1273 @@
+/* 공통으로 들어가는 것 */
+.Logo{
+    position: absolute;
+    left: 66px;
+    top: 15px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #fff;
+    background-color: transparent;
+    border: transparent;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.Frame{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1870px;
+    height: 1030px;
+    margin: 25px;
+
+    background: rgba(141, 141, 141, 0.35);
+    border: 1px solid rgba(5, 5, 5, 0.01);
+    backdrop-filter: blur(13px);
+
+    border-radius: 10px;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ExerciseGroup{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.Subtitle{
+    padding-top : 70px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 87px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.SubtitleDescription{
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 30px;
+    margin-top: 8px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: rgba(255, 255, 255, 0.75);
+}
+
+/* ExerciseSelect */
+.GoToMyRoutineBtn{
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+
+    margin-top: 40px;
+    margin-left: 1578px;
+
+    padding: 13px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(9.8px);
+    border: none;
+    
+}
+
+.txtd {
+    text-decoration: none;
+}
+
+.GoToMyRoutineBtn:hover{
+    background: rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur(9.8px);
+}
+
+.SelectContentFrame{
+    box-sizing: border-box;
+
+    position: relative;
+    width: 1570px;
+    height: 670px;
+    margin-top: 10px;
+    margin-left: 150px;
+
+    border-radius: 10px;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.SelectContentRowFrame{
+    box-sizing: border-box;
+
+    margin-top: -5px;
+
+    position: relative;
+    width: 1570px;
+    height: 330px;
+    
+
+    display: flex;
+}
+
+.SelectContentBox{
+    position: relative;
+    width: 490px;
+    height: 300px;
+    margin-top: 25px;
+    margin-left: 22px;
+
+    border-radius: 10px;
+
+    background: rgba(255, 255, 255, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(9.8px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SelectContentIMG{
+    position: absolute;
+    width: 450px;
+    height: 270px;
+    z-index: 1;
+
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(9.8px);
+    border-radius: 10px;
+
+    opacity: 90%;
+}
+
+.ExerciseSelectName{
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    z-index: 2;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.9);
+
+    margin-top: 0px;
+    margin-left: 0px;
+
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(9.8px);
+    border: none;
+}
+
+.ExerciseSelectName:hover{
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(15.399999618530273px);
+    border: none;
+}
+
+.ExerciseSelectAdd{
+    position: absolute;
+    margin-left: 338px;
+    margin-top: 208px;
+    z-index: 3;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.9);
+
+    padding: 8px 17px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.30);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(9.8px);
+    border: none;
+}
+
+.ExerciseSelectAdd:hover{
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(15.399999618530273px);
+    border: none;
+}
+
+/* Exercise Details */
+.ExerciseDetails{
+    box-sizing: border-box;
+
+    position: relative;
+
+    width: 1570px;
+    height: 670px;
+    margin-top: 10px;
+    margin-left: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Back{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+
+    margin-left: -1450px;
+    margin-top: -550px;
+    opacity: 0.85;
+}
+
+.ExerciseDetailsGif{
+    width: 600px;
+    height: 600px;
+    margin: 30px;
+
+    border: 1px solid #fff;
+    opacity: 80%;
+}
+
+.ExerciseDetailsContent{
+    width: 600px;
+    height: 600px;
+    margin: 30px;
+
+    display: block;
+}
+
+.ExerciseDetailsCat{
+    position: absolute;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+
+    margin-top:60px;
+    margin-left:50px;
+
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.9);
+
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(15.399999618530273px);
+    border: none;
+}
+
+.ExerciseDetailsName{
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 50px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 30px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.ExerciseDetailsGroup{
+    position: absolute;
+    margin-top: 133px;
+    margin-left: 50px;
+
+    display: flex;
+}
+
+.ExerciseDetailsCal{
+    position: relative;
+    margin-left: 3px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.ExerciseDetailsScale{
+    position: relative;
+    margin-left: 3px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.ExerciseDetailsDes{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 50px;
+    width: 600px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+
+    white-space: pre-line;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.ExerciseDetailsAdd{
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 50px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.9);
+
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.30);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(9.8px);
+}
+
+.ExerciseDetailsAdd:hover{
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(15.399999618530273px);
+}
+
+/* MyRoutine */
+.MyRoutineContentFrame{
+    box-sizing: border-box;
+
+    position: relative;
+    width: 810px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 530px;
+
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+
+    border-radius: 10px;
+
+    display: center;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.MyRoutineContentFrame:nth-child(n+2){
+    margin-top: 1rem;
+}
+
+.MyRoutineContent{
+    position: relative;
+    width: 640px;
+    height: 120px;
+    margin: 22px Auto;
+
+    background: rgba(255, 255, 255, 0.36);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(11.3px);
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MyRoutineContentBox{
+    position: relative;
+    width: 750px;
+    height: 125px;
+    margin: 17.5px Auto;
+
+    background: rgba(255, 255, 255, 0.36);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(11.3px);
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.MyRoutineContentBoxHalf{
+    width: 375px;
+    height: 125px;
+    margin: 0px;
+
+    display: flex;
+    align-items: center;
+}
+
+
+.MyRoutineInfo{
+    width: 340px;
+
+    text-align: left;
+    margin-left: 35px;
+}
+
+.MyRoutineBtnGroup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MyRoutineBtn{
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255, 0.9);
+
+    margin: 60px;
+
+    padding: 20px 57px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(5, 5, 5, 0.01);
+    background: rgba(141, 141, 141, 0.50);
+    backdrop-filter: blur(15.399999618530273px);
+    border: none;
+}
+
+.MyRoutineBtn:hover{
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255, 0.9);
+
+    margin: 60px;
+
+    padding: 20px 57px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(15.399999618530273px);
+    border: none;
+}
+
+
+.CntBoxGroup{
+    height: 51px;
+    margin-top: 15px;
+    margin-left: 5%;
+
+    display: flex;
+}
+
+.MinusBox{
+    width: 30px;
+    height: 35px;
+    box-sizing: border-box;
+
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 20px 0px 0px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: large;
+    background-color: rgba(168, 168, 168, 0.6);
+}
+
+.NumBox{
+    width: 40px;
+    height: 35px;
+    box-sizing: border-box;
+
+    border: 1px solid rgba(255, 255, 255, 0.6);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    font-size: 18px;
+
+    letter-spacing: 0.02em;
+
+    color: rgba(255, 255, 255, 0.8);
+    
+}
+
+.PlusBox{
+    width: 30px;
+    height: 35px;
+    box-sizing: border-box;
+    margin-left: -1px;
+
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 0px 20px 20px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    background-color: rgba(168, 168, 168, 0.6);
+}
+
+.MinusSymbol{
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    margin-top: -8px;
+    margin-left: 3px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.Cnt{
+    width: 30px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 21px;
+    margin-top: -2px;
+    margin-left: 2px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.PlusSymbol{
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    margin-top: -2px;
+    margin-left: -1px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.CorrectBtn{
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 28px;
+    color: rgba(255, 255, 255, 0.8);
+
+    padding: 7.5px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1.5px solid rgba(255, 255, 255, 0.8);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DeleteIcon{
+    width: 40px;
+    height: 40px;
+    margin-top: 2px;
+    margin-left: 25px;
+    opacity: 0.7;
+}
+
+.MoveIcon{
+    width: 30px;
+    height: 30px;
+    margin-top: 2px;
+    margin-left: 25px;
+    opacity: 0.7;
+}
+
+/* Exercise */
+.ExerciseContentFrame{
+    box-sizing: border-box;
+
+    position: relative;
+    width: 1620px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 125px;
+    
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.RealcamFrame{
+    position: relative;
+    width: 810px;
+    height: 600px;
+
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    
+    border-radius: 10px 0px 0px 10px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.RealcamSpace{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 640px;
+    height: 480px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.ExerciseRoutineFrame{
+    position: relative;
+    width: 810px;
+    height: 600px;
+    margin-left: -1px;
+
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+
+    border-radius: 0px 10px 10px 0px;
+
+    display: center;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ExerciseRoutine{
+    position: relative;
+    width: 640px;
+    height: 120px;
+    margin: 22px Auto;
+
+    background: rgba(255, 255, 255, 0.36);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(11.3px);
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ExerciseInfo{
+    display: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ExerciseCategory{
+    position: relative;
+    margin-left: 3px;
+    margin-top: -1px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 125%;
+
+    color: #FFFFFF;
+}
+
+.ExerciseName{
+    position: relative;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 125%;
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.ExerciseStartBtnBox{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.ExerciseStartBtn{
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+    margin: 60px 30px 0 30px;
+    margin-right: 10px;
+
+    padding: 20px 57px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(5, 5, 5, 0.01);
+    background: rgba(141, 141, 141, 0.50);
+    backdrop-filter: blur(15.399999618530273px);
+    border: none;
+
+}
+
+.ExerciseStartBtn:hover{
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(15.399999618530273px);
+    border: none;
+}
+
+/* Exercise Result */
+.ExerciseContentFrame{
+    box-sizing: border-box;
+
+    position: relative;
+    width: 1620px;
+    height: 600px;
+    margin-top: 60px;
+    
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.ResultFrameL{
+    position: relative;
+    width: 540px;
+    height: 600px;
+
+    background: rgba(255, 255, 255, 0.15);
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    
+    border-radius: 10px 0px 0px 10px;
+
+    display: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.ResultFrameM{
+    position: relative;
+    width: 540px;
+    height: 600px;
+    margin-left: -1px;
+
+    background: rgba(255, 255, 255, 0.15);
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+
+    display: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.ResultFrameR{
+    position: relative;
+    width: 540px;
+    height: 600px;
+    margin-left: -1px;
+
+    background: rgba(255, 255, 255, 0.15);
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    
+    border-radius: 0px 10px 10px 0px;
+
+    
+    display: center;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ResultHalfFrame{
+    position: relative;
+    width: 540px;
+    height: 300px;
+
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.ResultBox{
+    width: 420px;
+    height: 225px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.ResultTitle{
+    position: absolute;
+    left: 60px;
+    top: 50px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.ResultGroup{
+    position: absolute;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.ResultNum{
+    position: relative;
+    
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 98px;
+
+    /* identical to box height */
+    text-align: right;
+    letter-spacing: 0.03em;
+
+    color: rgb(255, 255, 255, 0.9);
+}
+
+.ResultScale{
+    position: relative;
+    margin-left: 25px;
+    margin-bottom: 12px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+    /* identical to box height */
+    display: flex;
+
+    color: rgba(255, 255, 255, 0.9);
+
+}
+
+.MyRoutineTitle{
+    margin-top: 50px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.ExerciseRoutineBoxFrame{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-left: 75px;
+    margin-top: 45px;
+
+    display: center;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ExerciseRoutineBoxP{
+    position: relative;
+    width: 380px;
+    height: 85px;
+    margin-bottom: 15px;
+
+    background: rgba(255, 255, 255, 0.36);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(11.3px);
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ExerciseRoutineBoxP:hover{
+    position: relative;
+    width: 380px;
+    height: 85px;
+    margin-bottom: 15px;
+
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15.399999618530273px);
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ExerciseInfo{
+    display: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ExerciseRoutineCategory{
+    position: absolute;
+    left: 30px;
+    top: 15px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+
+    color: #FFFFFF;
+}
+.ExerciseRoutineName{
+    position: absolute;
+    left: 27px;
+    top: 33px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 31px;
+
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+
+.ExerciseRoutineProperty{
+    margin-right: 30px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.ExerciseRoutineCnt{
+    margin-top: -3.5px;
+
+    position: relative;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+
+    letter-spacing: 0.01em;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.ExerciseRoutineScale{
+    position: relative;
+    margin-top: 0px;
+    margin-left: 2px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 125%;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.GoToMainBtnBox{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.GoToMainBtn{
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255, 0.9);
+
+    margin-top: 60px;
+
+    padding: 20px 57px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: rgba(37, 37, 37, 0.75);
+    border: 1px solid rgba(54, 54, 54, 0.6);
+    backdrop-filter: blur(15.399999618530273px);
+    border: none;
+}
+
+.GoToMainBtn:hover{
+    background: rgba(37, 37, 37, 0.95);
+    border: 1px solid rgba(54, 54, 54, 0.6);
+    backdrop-filter: blur(15.399999618530273px);
+    border: none;
+}
+
+.WeekMonthBtnBox{
+    display: flex;
+    align-items: flex-start;
+    /*margin-left: 125px;*/
+    justify-content: center;
+}
+
+.WeekBtn{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255, 0.8);
+
+    margin-top: 20px;
+    margin-bottom: -40px;
+
+    padding: 10px 20px;
+    padding-right: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px 0px 0px 10px;
+
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    border-right: 0.5px solid rgba(255, 255, 255, 0.3);
+}
+
+.WeekBtn_X{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255, 0.8);
+
+    margin-top: 20px;
+    margin-bottom: -40px;
+
+    padding: 10px 20px;
+    padding-right: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px 0px 0px 10px;
+
+    background: rgba(37, 37, 37, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 0.5px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+.MonthBtn{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255, 0.8);
+
+    margin-top: 20px;
+    margin-bottom: -40px;
+
+    padding: 10px 20px;
+    padding-left: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0px 10px 10px 0px;
+
+    background: rgba(37, 37, 37, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-left: 0.5px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+.MonthBtn_X{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255, 0.8);
+
+    margin-top: 20px;
+    margin-bottom: -40px;
+
+    padding: 10px 20px;
+    padding-left: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0px 10px 10px 0px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-left: 0.5px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+}

@@ -1,0 +1,77 @@
+.bar {
+    position: fixed;
+    width: 1720px;
+    height: 140px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    margin-top: 0px;
+    margin-left: 0px;
+
+    padding: 0px 100px;
+
+    display: flex;
+    align-items: center;
+    mix-blend-mode: lighten;
+}
+
+.logo {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: white;
+    background-color: transparent;
+
+    border: none;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.menu {
+    padding: 0px;
+    margin-left: 670px;
+}
+
+.login {
+    position: absolute;
+    top: 38px;
+    right: 100px;
+    
+    padding: 15px 30px;
+    border-radius: 10px;
+
+    border: 1px solid rgba(5, 5, 5, 0.01);
+    background: rgba(141, 141, 141, 0.35);
+    backdrop-filter: blur(15.399999618530273px);
+    
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Noto Sans KR';
+
+    justify-content: center;
+    align-items: left;
+}
+
+.login:hover {
+    border: 1px solid rgba(5, 5, 5, 0.01);
+    background: rgba(141, 141, 141, 0.6);
+    backdrop-filter: blur(15.399999618530273px);
+}
+
+.na_li_b {
+    color: white;
+
+    line-height: 80px;
+    padding: 0 30px;
+
+    background-color: transparent;
+    font-family: 'Lato';
+
+    border: none;
+    font-size: 20px;
+}

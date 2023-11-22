@@ -1,0 +1,10 @@
+Body {
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.0) 60%),
+        url("https://firebasestorage.googleapis.com/v0/b/postureflow-hallym.appspot.com/o/MainPhoto.png?alt=media&token=512c172a-18de-4237-98bb-1373148c4eee");
+
+    width: 1920px;
+    height: 1080px;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,186 @@
+main{
+    height: 1080px;
+}
+
+.back {
+    width: 1920px;
+    height: 1080px;
+    margin-left: 0px;
+    padding-top: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.frame {
+    width: 1720px;
+    height: 800px;
+    margin-top: 185px;
+
+    border-radius: 10px;
+    border: 1px solid rgba(5, 5, 5, 0.01);
+    background: rgba(141, 141, 141, 0.35);
+    backdrop-filter: blur(15.399999618530273px);
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Miniframe {
+    width: 1620px;
+    height: 700px;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 70px;
+    font-family: 'Lato';
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.project {
+    font-size: 27px;
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.83);
+    text-align: center;
+}
+
+.sl {
+    width: 1620px;
+    height: 700px;
+
+    display: block;
+}
+
+.ssl1 {
+    width: 1620px;
+    height: 350px;
+    gap: 3em;
+
+    display: flex;
+    justify-content: center;
+}
+
+.ssl2 {
+    width: 1620px;
+    height: 350px;
+    margin-top: 20px;
+    gap: 3em;
+
+    display: flex;
+    justify-content: center;
+}
+
+.nocard {
+    width: 445px;
+    height: 260px;
+    position: relative;
+    min-height: 205px;
+    flex-grow: 0;
+    padding: 30px;
+}
+
+.card {
+    width: 445px;
+    height: 260px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur(9.800000190734863px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    min-height: 205px;
+    flex-grow: 0;
+    padding: 30px;
+}
+
+.card:hover {
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(9.800000190734863px);
+}
+
+.center {
+    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*member*/
+.name {
+    margin-top: 10px;
+    padding: 25px 0px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Noto Sans KR';
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.major {
+    padding-top: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Noto Sans KR';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.part {
+    padding-top: 5px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Noto Sans KR';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.photo {
+    width: 205px;
+    height: 260px;
+
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(9.800000190734863px);
+
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.members {
+    width: 205px;
+    height: 260px;
+
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    border-top: 1px solid rgba(255, 255, 255, 0.50);
+    margin: 10px 25px ;
+    margin-top: 0px;
+    width: 150px;
+    height: 3px;
+}

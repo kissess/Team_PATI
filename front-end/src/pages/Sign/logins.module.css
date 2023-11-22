@@ -1,0 +1,231 @@
+.box {
+  position: absolute;
+  top: 140px;
+  left: 660px;
+
+  width: 600px;
+  height: 800px;
+
+
+  border: 1px solid rgba(5, 5, 5, 0.01);
+  background: rgba(141, 141, 141, 0.35);
+  backdrop-filter: blur(15.399999618530273px);
+
+  text-align: center;
+}
+
+.logo {
+  font-size: 45px;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  font-family: 'Lato';
+  font-weight: 500;
+  text-decoration : none;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+}
+
+.title {
+  color: rgba(255, 255, 255, 0.80);
+
+  font-family: 'Noto Sans KR';
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+
+  margin-top: 34px;
+}
+
+.input {
+  padding-bottom: 0px;
+  width: 350px;
+  height: 40px;
+
+  font-family: 'Noto Sans KR';
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 0px;
+  
+  margin-top: 35px;
+  color: rgba(255, 255, 255, 0.70);
+  background: transparent;
+  border: none;
+  border-bottom: 0.75px solid rgba(255, 255, 255, 0.6);
+}
+
+.btn {
+  width: 350px;
+  height: 60px;
+  padding: 5px;
+  margin-top: 50px;
+
+  border: 1px solid rgba(54, 54, 54, 0.20);
+  background: rgba(37, 37, 37, 0.8);
+  backdrop-filter: blur(11.199999809265137px);
+
+  font-family: 'Noto Sans KR';
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.btn:hover {
+  width: 350px;
+  height: 60px;
+  padding: 5px;
+  margin-top: 50px;
+
+  border: 1px solid rgba(54, 54, 54, 0.20);
+  background: rgba(37, 37, 37, 0.95);
+  backdrop-filter: blur(11.199999809265137px);
+
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.or {
+  position: absolute;
+  width: 350px;
+  margin-left: 125px;
+
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.70);
+
+  font-family: 'Noto Sans KR';
+  font-weight: 300;
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+.or::before {
+  content: "";
+  flex-grow: 1;
+  background: rgba(255, 255, 255, 0.60);
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.or::after {
+  content: "";
+  flex-grow: 1;
+  background: rgba(255, 255, 255, 0.60);
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.google {
+  width: 350px;
+  height: 60px;
+  margin-top: 80px;
+
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Noto Sans KR';
+  font-weight: 300;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: normal;
+  background-color: transparent;
+
+  border: 1px solid #fff;
+}
+
+
+/* SignIn*/
+.ForSignUpBox{
+  position: absolute;
+  width: 350px;
+  height: 30px;
+  margin-left: 125px;
+  margin-top: 30px;
+  gap: 30px;
+  
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.ForSignUpText{
+  font-family: 'Noto Sans KR';
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.ForSignUp{
+  font-family: 'Noto Sans KR';
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.ForSignUp:hover{
+  font-family: 'Noto Sans KR';
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.orIN {
+  position: absolute;
+  width: 350px;
+  margin-left: 125px;
+  margin-top: 140px;
+
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.70);
+
+  font-family: 'Noto Sans KR';
+  font-weight: 300;
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+.orIN::before {
+  content: "";
+  flex-grow: 1;
+  background: rgba(255, 255, 255, 0.60);
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.orIN::after {
+  content: "";
+  flex-grow: 1;
+  background: rgba(255, 255, 255, 0.60);
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.googleIN {
+  width: 350px;
+  height: 60px;
+  margin-top: 205px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Noto Sans KR';
+  font-weight: 300;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: normal;
+  background-color: transparent;
+
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
